@@ -931,7 +931,7 @@ def latest_received_items():
             elif line.startswith("Item code:"):
                 received_item = line.split(":")[1].strip()
                 received_item_info.append(received_item)
-            elif line.startswith("Suppplier code:"):
+            elif line.startswith("Supplier code:"):
                 received_item = line.split(":")[1].strip()
                 received_item_info.append(received_item)
             elif line.startswith("Stock:"):
