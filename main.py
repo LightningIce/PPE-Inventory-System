@@ -445,6 +445,7 @@ def edit_hospital_telephone():
             hospital_menu()
         else:
             print("Invalid phone number. Returning to hospital menu...\n")
+            hospital_menu()
     else:
         print("Invalid hospital code. Returning to hospital menu...\n")
         hospital_menu()
